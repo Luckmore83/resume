@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "homepage": "https://Luckmore83.github.io/resume/",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

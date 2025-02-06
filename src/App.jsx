@@ -14,9 +14,9 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Home />} />
+          <Route path="/resume/projects" element={<Projects />} />
+          <Route path="/resume/about" element={<About />} />
         </Routes>
       </main>
     </HashRouter>

@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
@@ -8,7 +8,7 @@ import './global.css';
 function App() {
 
   return (
-    <Router>
+    <HashRouter>
       <header>
         <Navbar />
       </header>
@@ -16,10 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
-    </Router>
+    </HashRouter>
   );
 }
 

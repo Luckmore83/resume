@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom'; //Since gh-pages doesn't accept BrowserRouter, I had to look up how to set up HashRouter.
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
@@ -6,9 +6,9 @@ import About from './components/pages/About';
 import './global.css';
 
 function App() {
-
+  
   return (
-    <HashRouter>
+    <HashRouter> 
       <header>
         <Navbar />
       </header>

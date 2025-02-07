@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { setName, addSkill, removeSkill } from '../../store/resumeSlice';
 import { useState } from 'react';
-
+// Here's my function to dispatch new skills added to the 'Skills' list.
 const Home = () => {
     const dispatch = useDispatch();
     const skills = useSelector((state) =>
@@ -14,7 +14,7 @@ const Home = () => {
             setNewSkill('');
         }
     };
-
+// If I made a mistake with an added skill or just want to remove a skill I just added.
     const handleRemoveSkill = (index) => {
         dispatch(removeSkill(index));
     };

@@ -1,8 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Det här projektet är ett CV/portfolio som är gjort med hjälp av React/Redux.
 
-Currently, two official plugins are available:
+Hur det fungerar: Gå in på https://luckmore83.github.io/resume/ för att se hur det ser ut.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funktioner: Man kan navigera till de olika sidorna uppe till vänster. På startsidan kan man trycka på knappen
+så ändras mitt namn. Man kan även lägga till en ny "skill", och ta bort om man vill det.
